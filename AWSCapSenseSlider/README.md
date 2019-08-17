@@ -1,5 +1,5 @@
 # AWSPublisher_CapSenseSlider code example
-[Cypress Semiconductor MbedOS](https://github.com/cypresssemiconductorco/Firmware-loader) page has several examples but each deal with a single component block. This project demonstrates how to combine the IOT Publisher and CapSense code examples. When the CapSense slider/buttons are pressed, the values get published on to the AWS Cloud using an MQTT channel.
+[Cypress Semiconductor MbedOS](https://os.mbed.com/teams/Cypress/) page has several examples but each deal with a single component block. This project demonstrates how to combine the IOT Publisher and CapSense code examples. When the CapSense slider/buttons are pressed, the values get published on to the AWS Cloud using an MQTT channel.
 
 # Instructions to run the AWSPublisher_CapSenseSlider code example
 

@@ -34,8 +34,14 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
 
 8. Compile the example and Program
 
-        mbed compile --target CY8CPROTO_062_4343W --toolchain GCC_ARM --flash --sterm
-        
+        mbed compile --target CY8CPROTO_062_4343W --toolchain GCC_ARM --flash
+
+9. Connect a serial terminal at 115200 baud rate
+
+	```
+	mbed sterm -b 115200
+	```
+	
         For other targets:
         mbed compile -m CY8CKIT_062_WIFI_BT -t GCC_ARM -f --sterm
 
@@ -46,3 +52,178 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
         Application has started. Touch any CapSense button or slider.
 
 10. Touch the buttons or the slider to observe the red LED changing its state and the status printed on the serial terminal. On the AWS IOT Dashboard, setup an MQTT Client to subscribe to a topic to receive the published messages. 
+
+``` Output Log 
+C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider>mbed sterm -b 115200
+[mbed] Working path "C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider" (library)
+[mbed] Program path "C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider"
+[mbed] Detecting connected targets/boards to your system...
+[mbed] Opening serial terminal to "CY8CPROTO_062_4343W"
+--- Terminal on COM85 - 115200,8,N,1 ---
+Connecting to the network using Wifi...
+WLAN MAC Address : 00:9D:6B:64:5F:F1
+WLAN Firmware    : wl0: Jun  7 2019 07:11:39 version 7.45.98.87 (r717217 CY) FWID 01-4cc34fdc
+WLAN CLM         : API: 12.2 Data: 9.10.39 Compiler: 1.29.4 ClmImport: 1.36.3 Creation: 2019-06-07 06:59:52
+WHD VERSION      : 1b9fceb7 : master : GCC 6.3 : 2019-07-03 16:07:52 +0530
+Connected to the network successfully. IP address: 192.168.43.247
+Connected to AWS endpoint
+Application has started. Touch any CapSense button or slider.
+Published to topic successfully
+Published message: Starting AWS MQTT Connection
+Button_1 status: 1
+Published to topic successfully
+Published message: Button_1 status: 1
+
+Button_1 status: 0
+Published to topic successfully
+Published message: Button_1 status: 0
+
+Button_0 status: 1
+publish to topic failed
+Published to topic successfully
+Published message: Button_0 status: 1
+
+Button_0 status: 0
+publish to topic failed
+Published to topic successfully
+Published message: Button_0 status: 0
+
+Slider position: 2
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 2
+
+Slider position: 3
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 3
+
+Slider position: 5
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 5
+
+Slider position: 7
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 7
+
+Slider position: 9
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 9
+
+Slider position: 12
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 12
+
+Slider position: 18
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 18
+
+Slider position: 22
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 22
+
+Slider position: 25
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 25
+
+Slider position: 30
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 30
+
+Slider position: 32
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 32
+
+Slider position: 35
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 35
+
+Slider position: 38
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 38
+
+Slider position: 44
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 44
+
+Slider position: 47
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 47
+
+Slider position: 51
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 51
+
+Slider position: 55
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 55
+
+Slider position: 58
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 58
+
+Slider position: 61
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 61
+
+Slider position: 64
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 64
+
+Slider position: 71
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 71
+
+Slider position: 75
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 75
+
+Slider position: 79
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 79
+
+Slider position: 85
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 85
+
+Slider position: 90
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 90
+
+Slider position: 94
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 94
+
+Slider position: 96
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 96
+
+Slider position: 99
+publish to topic failed
+Published to topic successfully
+Published message: Slider position: 99 ```

@@ -30,7 +30,7 @@
 #define AWSIOT_KEEPALIVE_TIMEOUT            (60)
 #define AWSIOT_MESSAGE                      "Starting AWS MQTT Connection"
 #define AWS_IOT_SECURE_PORT                 (8883)
-#define AWSIOT_TIMEOUT                      (1000)
+#define AWSIOT_TIMEOUT                      (20u) /* milliseconds */
 #define SLIDER_NUM_TOUCH                        (1u)    /* Number of touches on the slider */
 #define LED_OFF                                 (1u) 
 #define LED_ON                                  (0u)
@@ -176,6 +176,8 @@ void AWSTask(AWSConnectionParams* awsArgs){
 
 	APP_INFO(("Published to topic successfully \r\n"));
 	APP_INFO(("Published message: %s \r\n", message));
+	
+	wait_ms(AWSIOT_TIMEOUT);
 
 }
 

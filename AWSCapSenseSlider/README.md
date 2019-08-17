@@ -24,6 +24,7 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
 	- Refer to 'Getting Started with AWS IoT' on the AWS documentation
 	    - https://docs.aws.amazon.com/iot/latest/developerguide/iot-gs.html
 	- Using the above reference, fill out the aws_config.h parameters
+	- Add SSID and Password in mbed_app.json file
 
 6. Plug in the CY8CPROTO-062-4343W kit. Ensure that the kit has the latest version of KitProg3 firmware and is in DAPLink mode to allow programming from Mbed CLI. See [Firmware-loader](https://github.com/cypresssemiconductorco/Firmware-loader) for more information on how to update the firmware and switch to DAPLink mode. 
 

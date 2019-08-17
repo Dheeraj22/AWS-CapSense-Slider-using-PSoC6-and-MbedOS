@@ -71,6 +71,14 @@ Connected to AWS endpoint
 Application has started. Touch any CapSense button or slider.
 Published to topic successfully
 Published message: Starting AWS MQTT Connection
+Button_0 status: 1
+Published to topic successfully
+Published message: Button_0 status: 1
+
+Button_0 status: 0
+Published to topic successfully
+Published message: Button_0 status: 0
+
 Button_1 status: 1
 Published to topic successfully
 Published message: Button_1 status: 1
@@ -79,152 +87,118 @@ Button_1 status: 0
 Published to topic successfully
 Published message: Button_1 status: 0
 
-Button_0 status: 1
-publish to topic failed
-Published to topic successfully
-Published message: Button_0 status: 1
-
-Button_0 status: 0
-publish to topic failed
-Published to topic successfully
-Published message: Button_0 status: 0
-
 Slider position: 2
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 2
 
 Slider position: 3
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 3
 
 Slider position: 5
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 5
 
 Slider position: 7
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 7
 
 Slider position: 9
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 9
 
-Slider position: 12
-publish to topic failed
+Slider position: 11
 Published to topic successfully
-Published message: Slider position: 12
+Published message: Slider position: 11
 
-Slider position: 18
-publish to topic failed
+Slider position: 16
 Published to topic successfully
-Published message: Slider position: 18
+Published message: Slider position: 16
 
-Slider position: 22
-publish to topic failed
+Slider position: 19
 Published to topic successfully
-Published message: Slider position: 22
+Published message: Slider position: 19
 
-Slider position: 25
-publish to topic failed
+Slider position: 24
 Published to topic successfully
-Published message: Slider position: 25
+Published message: Slider position: 24
+
+Slider position: 27
+Published to topic successfully
+Published message: Slider position: 27
 
 Slider position: 30
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 30
 
-Slider position: 32
-publish to topic failed
+Slider position: 33
 Published to topic successfully
-Published message: Slider position: 32
+Published message: Slider position: 33
 
-Slider position: 35
-publish to topic failed
+Slider position: 41
 Published to topic successfully
-Published message: Slider position: 35
+Published message: Slider position: 41
 
-Slider position: 38
-publish to topic failed
+Slider position: 46
 Published to topic successfully
-Published message: Slider position: 38
+Published message: Slider position: 46
 
-Slider position: 44
-publish to topic failed
+Slider position: 52
 Published to topic successfully
-Published message: Slider position: 44
-
-Slider position: 47
-publish to topic failed
-Published to topic successfully
-Published message: Slider position: 47
-
-Slider position: 51
-publish to topic failed
-Published to topic successfully
-Published message: Slider position: 51
+Published message: Slider position: 52
 
 Slider position: 55
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 55
 
 Slider position: 58
-publish to topic failed
 Published to topic successfully
 Published message: Slider position: 58
 
-Slider position: 61
-publish to topic failed
+Slider position: 65
 Published to topic successfully
-Published message: Slider position: 61
+Published message: Slider position: 65
 
-Slider position: 64
-publish to topic failed
+Slider position: 68
 Published to topic successfully
-Published message: Slider position: 64
+Published message: Slider position: 68
 
-Slider position: 71
-publish to topic failed
+Slider position: 72
 Published to topic successfully
-Published message: Slider position: 71
+Published message: Slider position: 72
 
-Slider position: 75
-publish to topic failed
+Slider position: 76
 Published to topic successfully
-Published message: Slider position: 75
+Published message: Slider position: 76
 
-Slider position: 79
-publish to topic failed
+Slider position: 78
 Published to topic successfully
-Published message: Slider position: 79
+Published message: Slider position: 78
 
-Slider position: 85
-publish to topic failed
+Slider position: 81
 Published to topic successfully
-Published message: Slider position: 85
+Published message: Slider position: 81
 
-Slider position: 90
-publish to topic failed
+Slider position: 83
 Published to topic successfully
-Published message: Slider position: 90
+Published message: Slider position: 83
 
-Slider position: 94
-publish to topic failed
+Slider position: 87
 Published to topic successfully
-Published message: Slider position: 94
-
-Slider position: 96
-publish to topic failed
-Published to topic successfully
-Published message: Slider position: 96
+Published message: Slider position: 87
 
 Slider position: 99
-publish to topic failed
 Published to topic successfully
-Published message: Slider position: 99 ```
+Published message: Slider position: 99
+
+Published to topic successfully
+Published message: Slider position: 99
+
+Published to topic successfully
+Published message: Slider position: 99
+
+Published to topic successfully
+Published message: Slider position: 99
+
+Published to topic successfully
+Published message: Slider position: 99

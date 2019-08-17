@@ -1,0 +1,12 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "target.network-default-interface-type": "WIFI",
+            "nsapi.default-wifi-security": "WPA_WPA2",
+            "nsapi.default-wifi-ssid": "\"dk\"",
+            "nsapi.default-wifi-password": "\"dkparadise@22\"",
+			"platform.stdio-baud-rate": 115200
+        }
+    }
+}

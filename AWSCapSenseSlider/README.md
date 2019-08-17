@@ -47,7 +47,7 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
 
     **Note:** The *--sterm* option opens the serial terminal with 9600-8N1 setting on the command prompt itself after programming completes. Do not use this option if you wish to connect using another serial terminal application.
 
-9. Following message is displayed on the serial terminal when the application starts running.
+9. Press RESET. Following message is displayed last on the serial terminal when the application starts running.
 
         Application has started. Touch any CapSense button or slider.
 

@@ -1,6 +1,6 @@
 
 /* Change endpoint address, thing name & topic based on your AWS IoT account configurations. Below values are just for reference */
-#define AWSIOT_ENDPOINT_ADDRESS             "a2wez1ijy9ju6g-ats.iot.us-east-1.amazonaws.com"
+#define AWSIOT_ENDPOINT_ADDRESS             "a4wez1ijy9ju6g-ats.iot.us-east-1.amazonaws.com"
 #define AWSIOT_THING_NAME                   "AWS_Thing"
 
 /* Make sure Client-ID is unique for each AWS IoT connection */

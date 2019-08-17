@@ -53,7 +53,8 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
 
 10. Touch the buttons or the slider to observe the red LED changing its state and the status printed on the serial terminal. On the AWS IOT Dashboard, setup an MQTT Client to subscribe to a topic to receive the published messages. 
 
-``` Output Log 
+# Output Log
+``` 
 C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider>mbed sterm -b 115200
 [mbed] Working path "C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider" (library)
 [mbed] Program path "C:\MbedWorkspace\MbedOS_Examples\AWSCapSenseSlider"

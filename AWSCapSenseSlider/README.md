@@ -45,4 +45,4 @@ This will pull mbed-os, AWS_Iot_Client library and its internal 3rd party depend
 
         Application has started. Touch any CapSense button or slider.
 
-10. Touch the buttons or the slider to observe the red LED changing its state and the status printed on the serial terminal. 
+10. Touch the buttons or the slider to observe the red LED changing its state and the status printed on the serial terminal. On the AWS IOT Dashboard, setup an MQTT Client to subscribe to a topic to receive the published messages. 
